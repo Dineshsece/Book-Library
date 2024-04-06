@@ -1,0 +1,20 @@
+.books-list-container {
+    margin-top: 20px;
+  }
+  
+  .books-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .book-item h3 {
+    margin-top: 0;
+  }
+  
